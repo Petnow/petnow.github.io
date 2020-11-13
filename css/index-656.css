@@ -1,0 +1,308 @@
+/**
+* common
+**/
+
+.relative-common-r {
+    left: 0%;
+}
+
+.relative-common-l {
+    right: 0%;
+}
+
+.contents-title {
+    text-align: center;
+}
+
+.contents-title > p {
+    font-size: 21px;
+    line-height: 1.43;
+    letter-spacing: -0.5px;
+}
+
+.contents-message {
+    text-align: center;
+}
+
+.contents-message p {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.38px;
+}
+/**
+* header 
+**/
+.header {
+    height: 418px;
+    background-image: url('../img/header/header-bg-656.png');
+    background-size: 656px 418px;
+    margin: auto;
+}
+
+.header-contents {
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-top: 104px;
+}
+
+.header-contents > .petnow-slogan {
+    width: 134px;
+}
+
+.header-contents > .petnow-slogan > p {
+    font-size: 28px;
+    line-height: 1.54;
+    letter-spacing: -0.67px;
+} 
+
+.header-contents > .petnow-sub-slogan {
+    width: 280px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.header-contents > .petnow-sub-slogan > p{
+    font-size: 13px;
+    letter-spacing: -0.31px;
+}
+
+.header-contents .btn-store {
+    width: 112px;
+    height: 33px;
+    margin-bottom: 7px;
+}
+
+/**
+* section - nose print
+**/
+.wrapper-nose-print {
+    height: 471px;
+    background-color: #F4F4F4;
+    margin-top: 122px;
+    justify-content: center;
+}
+
+.img-nose-print {
+    width: 251px;
+    height: 251px;
+    margin: 125px auto 95px;
+}
+
+.contents-nose-print {
+    margin-top: 20px;
+    position: absolute;
+}
+
+.contents-nose-print > .contents-message {
+    margin-top: 281px;
+}
+
+/**
+* section - profile
+**/
+.wrapper-profile {
+    width: 100%;
+    height: 483px;
+    background-color: #F0F0F5;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.img-profile {
+    width: 252px;
+    height: 245px;
+    margin: 95px auto 143px;
+}
+
+.contents-profile {
+    margin-top: 20px;
+    position: absolute;
+}
+
+.contents-profile > .contents-message {
+    margin-top: 275px;
+}
+
+/**
+* section - advantages
+**/
+.advantage-r {
+    left: 50%;
+    width: 771px;
+    margin-left: -156px;
+}
+
+.advantage-l {
+    right: 50%;
+    width: 771px;
+    margin-right: -156px;
+}
+
+.section-advantage {
+    margin-top: 115px;
+}
+
+.advantage-wrapper {
+    height: calc(357px + 28px + 51px + 10px);
+    background-size: auto 357px;
+}
+
+.advantage-wrapper .contents-title > p {
+    font-size: 22px;
+    letter-spacing: -0.53px;
+    margin-bottom: -3px;
+}
+
+.advantage-wrapper .contents-message {
+    margin-top: 10px;
+}
+
+.advantage-wrapper .contents-message p {
+    font-size: 15px;
+    line-height: 1.13;
+    letter-spacing: -0.36px;
+}
+
+.advantage-img {
+    width: 196px;
+    height: 261px;
+    margin-top: 82px;
+    margin-bottom: 14px;
+}
+
+.wrapper-lost {
+    background-image: url('../img/section/advantage/advantage-bg-r-1024.png');
+}
+
+.img-lost {
+    margin-left: 40px;
+}
+
+.contents-lost {
+    margin-top: 357px;
+    margin-left: -188px;
+}
+
+.contents-lost p {
+    text-align: right;
+}
+
+.wrapper-lost-except-message {
+    display: flex;
+}
+
+.wrapper-apms {
+    background-image: url('../img/section/advantage/advantage-bg-l-1024.png');
+    background-position-y: top;
+    margin-top: 11px;
+}
+
+.img-apms {
+    margin-right: 50px;
+}
+
+.contents-apms {
+    margin-top: 357px;
+    margin-right: -192px;
+}
+
+.contents-apms p {
+    text-align: left;
+}
+
+.wrapper-insurance {
+    background-image: url('../img/section/advantage/advantage-bg-r-1024.png');
+    margin-top: 11px;
+}
+
+.img-insurance {
+    margin-left: 40px;
+}
+
+.contents-insurance {
+    position: absolute;
+    margin: 357px 65px auto;
+    text-align: right;
+}
+
+.contents-insurance p {
+    text-align: right;
+}
+
+/**
+* aside - slogan
+**/
+.aside-slogan {
+    margin-top: 67px;
+    margin-bottom: 49px;
+}
+
+.aside-slogan p {
+    font-size: 24px;
+    letter-spacing: -0.58px;
+}
+
+.aside-slogan > div {
+    display: block;
+}
+
+/**
+* aside - logos
+**/
+.logo-petnow {
+    width: 180px;
+    height: 180px;
+    top: 90px;
+    margin-top: -90px;
+}
+
+.wrapper-logo-cooperator {
+    height: 413px;
+    width: 120px;
+    display: block;
+}
+
+.logo-apqa-img {
+    width: 120px;
+    height: 26px;
+    margin: auto;
+    padding-top: 138px;
+    background-position: bottom;
+}
+
+.logo-life-plus-img {
+    width: 105px;
+    height: 29px;
+    margin: 44px auto;
+    
+}
+
+.logo-eden-img {
+    width: 90px;
+    height: 88px;
+    margin: 44px auto;
+}
+/**
+* footer
+**/
+footer {
+    margin-top: 10px;
+}
+
+footer .footer-hyphen {
+    display: none;
+}
+
+footer .footer-corp > div {
+    display: block;
+}
+
+footer p {
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+footer .footer-copyright {
+    margin-top: 6px;
+    margin-bottom: 21px;
+}

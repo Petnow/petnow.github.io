@@ -1,0 +1,204 @@
+/**
+* init
+**/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-repeat: no-repeat;
+    color: #000000;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundB';
+    src: url('../font/NanumSquareRoundOTFB.otf')
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundEB';
+    src: url('../font/NanumSquareRoundOTFEB.otf')
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundL';
+    src: url('../font/NanumSquareRoundOTFL.otf')
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundR';
+    src: url('../font/NanumSquareRoundOTFR.otf')
+}
+
+@font-face {
+    font-family: 'NanumGothicR';
+    src: url('../font/NanumGothic-Regular.ttf')
+}
+
+body {
+    margin: 0 auto;
+}
+
+/**
+* common
+**/
+.flex {
+    position: relative;
+    display: flex;
+}
+
+.center {
+    position: relative;
+    margin: auto;
+}
+
+.relative-common-r {
+    left: 50%;
+}
+
+.relative-common-l {
+    right: 50%;
+    background-position: right;
+    justify-content: flex-end;
+}
+
+.contents-title > p {
+    font-family: 'NanumSquareRoundB';
+}
+
+.contents-message p {
+    font-family: 'NanumSquareRoundR';
+}
+
+.section-profile, .article-advantage-apms {
+    display: flex;
+}
+
+/**
+* header 
+**/
+.header {
+    background-position: center;
+}
+
+.header p {
+    color: #FFFFFF;
+}
+
+.header-contents > .petnow-slogan > p {
+    font-family: 'NanumSquareRoundEB';
+}
+
+.header-contents > .petnow-sub-slogan > p {
+    font-family: 'NanumSquareRoundR';
+}
+
+.header-contents .btn-store {
+    background-size: 98%;
+    background-position: center;
+}
+
+.btn-app-store {
+    background-image: url('../img//header/app-store-btn.png');
+}
+
+.btn-app-store:hover {
+    background-image: url('../img/header/app-store-btn-hover.png');
+}
+
+.btn-play-store {
+    background-image: url('../img/header/play-store-btn.png');
+}
+
+.btn-play-store:hover {
+    background-image: url('../img/header/play-store-btn-hover.png');
+}
+
+/**
+* section - nose print
+**/
+
+/**
+* section - profile
+**/
+
+/**
+* section - advantages
+**/
+.wrapper-lost {
+    z-index: 2;
+}
+
+.wrapper-apms {
+    z-index: 1;
+}
+
+.wrapper-insurance {
+    z-index: 0;
+}
+
+/**
+* aside - slogan
+**/
+.aside-slogan {
+    text-align: center;
+}
+
+.aside-slogan p {
+    font-family: 'NanumSquareRoundB';
+}
+
+.aside-slogan > div {
+    display: flex;
+    justify-content: center;
+}
+
+/**
+* aside - logos
+**/
+.logo-petnow {
+    background-image: url('../img/logo/petnow-logo.png');
+}
+
+.logo-cooperator {
+    background-color: #FAFAFC;
+}
+
+.wrapper-logo-cooperator {
+    position: relative;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper-logo-cooperator > li {
+    list-style: none;
+}
+
+.logo-apqa-img {
+    background-image: url('../img/logo/apqa-logo.png');
+}
+.logo-life-plus-img {
+    background-image: url('../img/logo/life-plus-logo.png');
+}
+
+.logo-eden-img {
+    background-image: url('../img/logo/eden-logo.png');
+}
+/**
+* footer
+**/
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-family: 'NanumGothicR';
+}
+
+footer .footer-corp > div {
+    display: flex;
+    justify-content: center;
+}

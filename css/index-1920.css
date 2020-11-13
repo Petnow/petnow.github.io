@@ -1,0 +1,236 @@
+/**
+* common
+**/
+.relative-r {
+    width: 3000px;
+    margin-left: -510px;
+}
+
+.relative-l {
+    width: 3000px;
+    margin-right: -510px;
+}
+
+.contents-title > p {
+    font-size: 42px;
+    line-height: 1.43;
+    letter-spacing: -1.01px;
+}
+
+.contents-message {
+    width: 385px;
+    margin-top: 20px;
+}
+
+.contents-message p {
+    font-size: 30px;
+    line-height: 1.47;
+    letter-spacing: -0.72px;
+}
+/**
+* header 
+**/
+.header {
+    height: 946px;
+    background-image: url('../img/header/header-bg-1920.png');
+    background-size: auto 946px;
+    margin-left: -1500px;
+}
+
+.header-contents {
+    margin-left: calc(1500px - 501px);
+    padding-top: 246px;
+}
+
+.header-contents > .petnow-slogan {
+    width: 134px;
+}
+
+.header-contents > .petnow-slogan > p {
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: -1.44px;
+}
+
+.header-contents > .petnow-sub-slogan {
+    width: 280px;
+    margin-top: 11px;
+    margin-bottom: 54px;
+}
+
+.header-contents > .petnow-sub-slogan > p{
+    font-size: 24px;
+    line-height: 2.5;
+    letter-spacing: -0.58px;
+}
+
+.header-contents .btn-store {
+    width: 170px;
+    height: 50px;
+    margin-bottom: 13px;
+}
+
+/**
+* section - nose print
+**/
+.wrapper-nose-print {
+    height: 835px;
+    background-image: url('../img/section/nose-print/nose-print-bg-1920.png');
+    background-size: auto 835px;
+    margin-top: 304px;
+}
+
+.img-nose-print {
+    width: 539px;
+    height: 539px;
+    margin: 148px 13px 148px 83px;
+}
+
+.contents-nose-print {
+    padding-top: 252px;
+}
+
+/**
+* section - profile
+**/
+.wrapper-profile {
+    height: 835px;
+    background-image: url('../img/section/profile/profile-bg-1920.png');
+    background-size: auto 835px;
+    margin-top: 52px;
+}
+
+.img-profile {
+    width: 539px;
+    height: 529px;
+    margin: 238px 83px 68px 16px;
+}
+
+.contents-profile {
+    padding-top: 238px;
+}
+
+/**
+* section - advantages
+**/
+.section-advantage {
+    margin-top: 118px;
+}
+
+.advantage-wrapper {
+    height: 856px;
+    background-size: auto 856px;
+}
+
+.advantage-img {
+    width: 489px;
+    height: 652px;
+    margin-top: 171px;
+    margin-bottom: 32px;
+}
+
+.wrapper-lost {
+    background-image: url('../img/section/advantage/advantage-bg-r-1920.png');
+}
+
+.img-lost {
+    margin-left: 91px;
+    margin-right: 52px;
+}
+
+.contents-lost {
+    padding-top: 288px;
+}
+
+.article-advantage-apms {
+    margin-top: -150px;
+}
+
+.wrapper-apms {
+    background-image: url('../img/section/advantage/advantage-bg-l-1920.png');
+}
+
+.img-apms {
+    margin-left: -46px;
+    margin-right: 113px;
+}
+
+.contents-apms {
+    padding-top: 326px;
+}
+
+.article-advantage-insurance {
+    margin-top: -150px;
+}
+
+.wrapper-insurance {
+    background-image: url('../img/section/advantage/advantage-bg-r-1920.png');
+}
+
+.img-insurance {
+    margin-left: 91px;
+    margin-right: 52px;
+}
+
+.contents-insurance {
+    padding-top: 325px;
+}
+
+/**
+* aside - slogan
+**/
+.aside-slogan {
+    margin: 250px auto 159px;
+}
+
+.aside-slogan p {
+    font-size: 42px;
+    letter-spacing: -1.01px;
+}
+
+/**
+* aside - logos
+**/
+.logo-petnow {
+    width: 214px;
+    height: 214px;
+    top: 107px;
+    margin-top: -107px;
+}
+
+.wrapper-logo-cooperator {
+    height: 446px;
+    width: 774px;
+}
+
+.logo-apqa-img {
+    width: 180px;
+    height: 39px;
+}
+
+.logo-life-plus-img {
+    width: 158px;
+    height: 43px;
+}
+
+.logo-eden-img {
+    width: 134px;
+    height: 132px;
+}
+/**
+* footer
+**/
+footer {
+    margin-top: 25px;
+}
+
+footer .footer-corp p {
+    font-size: 16px;
+    line-height: 1.38;
+    margin-bottom: 7px;
+}
+
+footer .footer-copyright {
+    font-size: 15px;
+    margin-bottom: 24px;
+}
