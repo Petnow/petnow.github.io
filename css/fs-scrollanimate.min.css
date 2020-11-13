@@ -1,0 +1,12 @@
+/*
+ * FS-ScrollAnimate
+ * Copyright 2019
+ * Author: Faisal Rashid
+ * All Rights Reserved.
+ * Use, reproduction, distribution, and modification of this code is subject to the terms and
+ * conditions of the MIT license, available at http://www.opensource.org/licenses/mit-license.php
+ *
+ * Project: https://github.com/FaisalST32/fs-scrollanimate
+ */
+
+.fs-scoll{animation:none}.fs-slow.fs-scroll{transition:none}.fs-scroll.fs-slideup{opacity:0;transform:translateY(100px)}.fs-scroll.fs-slideleft{opacity:0;transform:translateX(100px)}.fs-scroll.fs-slideright{opacity:0;transform:translateX(-100px)}.fs-scroll.fs-slideup{opacity:0;transform:translateY(100px)}.fs-scroll.fs-fadein{opacity:0}.fs-slideup{opacity:1;transform:translateY(0);transition:all .4s ease-in-out .2s}.fs-slideleft,.fs-slideright{opacity:1;transform:translateX(0);transition:all .4s ease-in-out .2s}.fs-fadein{opacity:1;transition:all .4s ease-in-out .2s}.fs-slow{transition-duration:.7s}

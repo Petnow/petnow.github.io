@@ -1,14 +1,217 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <title>Petnow</title>
-</head>
-
-<body>
-<p>It works!</p>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<title>PETNOW - 펫나우</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/fs-scrollanimate.css" >
+	</head>
+<body onresize="resize()">
+	<nav>
+		<div class="logo">
+		  <h1><a class="font-color-main" href="/">PETNOW</a></h1>
+		</div>
+		<div class="navigation">
+			<ul>
+				<li onClick="location.href='#header'">
+					<input type="radio" name="navigation" id="navigation-home" checked>
+					<label for="navigation-home" class="navigation-home"><img src="img/nav_button.png" alt="home button"></label>
+				</li>
+				<li onClick="location.href='#service'">
+					<input type="radio" name="navigation" id="navigation-service">
+					<label for="navigation-service" class="navigation-service"><img src="img/nav_button.png" alt="service button"></label>
+				</li>
+				<li onClick="location.href='#sns'">
+					<input type="radio" name="navigation" id="navigation-sns">
+					<label for="navigation-sns" class="navigation-sns"><img src="img/nav_button.png" alt="sns button"></label>
+				</li>
+				<li onClick="location.href='#app'">
+					<input type="radio" name="navigation" id="navigation-app">
+					<label for="navigation-app" class="navigation-app"><img src="img/nav_button.png" alt="app button"></label>
+				</li>
+				<li onClick="location.href='#contact'">
+					<input type="radio" name="navigation" id="navigation-contact">
+					<label for="navigation-contact" class="navigation-contact"><img src="img/nav_button.png" alt="contact button"></label>
+				</li>
+				<li onClick="location.href='#indulge'">
+					<input type="radio" name="navigation" id="navigation-indulge">
+					<label for="navigation-indulge" class="navigation-indulge"><img src="img/nav_button.png" alt="indulge button"></label>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+      <div class="header-bg" id="header">
+		  <div class="header-textbox">
+			  <h1>코지문으로 다~ 되는 반려동물 세상!</h1>
+			  <p><strong>강아지 코</strong>에 있는 고유의 지문!</p>
+			  <p>펫나우에서는 <strong>'코지문'</strong>을 가지고 이런것을 하고 있어요.</p>
+			  <p><strong>강아지들을 '식별'</strong>하는 것부터,</p>
+			  <p>유기견 방지를 위해 <strong>강아지용 '프로필'을 발급</strong>해 주고,</p>
+			  <p>펫나우 제휴사와<strong>반려동물 케어를 통합 관리</strong>하고 있어요.</p>
+			  <p>여러분의 반려동물을 펫나우가 함께 보살피겠습니다.</p>
+			  <ul>
+			  	<li><input class="appstore" type="button" alt="app store"></li>
+				<li><a href="http://play.google.com/store/apps/details?id=io.petnow.id"><input class="googleplay" type="button"  alt="app store"></a></li>
+			  </ul>
+		  </div>
+      </div>
+    </header>
+	<section id="service">
+		<div class="section-slider-bg font-color-main">
+			<h2>OUR SERVICE</h2>
+			<div class="section-slider">
+				<div class="slide-prev" id="slide-prev">
+					<img src="img/arrow_left.png" alt="left">
+				</div>
+				<div class="slide-image">
+	
+					<ul id="slide-ul">
+						<li>
+							<img src="img/service_cont1.png" alt="service1">
+							<h3>애견 의료</h3>
+							<p>의료 이력 조회</p>
+						</li>
+						<li>
+							<img src="img/service_cont2.png" alt="service2">
+							<h3>애견 미용</h3>
+							<p>실시간 예약</p>
+						</li>
+						<li>
+							<img src="img/service_cont3.png" alt="service3">
+							<h3>애견 테마파크</h3>
+							<p>간단한 출입관리</p>
+						</li>
+						<li>
+							<img src="img/service_cont4.png" alt="service4">
+							<h3>애견 보험</h3>
+							<p>펫 보험 서비스</p>
+						</li>
+					</ul>
+				</div>
+				<div class="slide-next" id="slide-next">
+					<img src="img/arrow_right.png" alt="right">
+				</div>
+			</div>
+		</div>
+		<div class="section-warp">
+			<div class="section-row font-color-main fs-scroll fs-slideup" id="sns">
+				<div class="section-content section-left">
+					<img src="img/dog1.png" width="500px" alt="dog1">
+				</div>
+				<div class="section-header section-right">
+					<h2>편하게 쓰고 나누는 댕댕한 이야기</h2>
+					<p>PETNOW에서 반려동물과 함께하는 소소한 일상을 새로운 친구들과 함께 공유해 보세요.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section-warp">
+			<div class="section-row font-color-main fs-scroll fs-slideup" id="app">
+				<div class="section-content section-right">
+					<img src="img/dog2.png" alt="dog2">
+				</div>
+				<div class="section-header section-left">
+					<h2>펫의 코 지문을 등록하기</h2>
+					<p>반려견의 코 주름은 여러분의 지문처럼 객체를 식별할 수 있는 고유의 문양을 갖고 있어 카메라 자동인식을 통서서 PETNOW에 간단하게 반려견 신분을 등록해보세요.</p>
+					<p>
+					<ul class="appicon">
+						<li><input class="appstore" type="button" alt="app store"></li>
+						<li><a href="http://play.google.com/store/apps/details?id=io.petnow.id"><input class="googleplay" type="button"  alt="app store"></a></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-us" id="contact">
+			<h2 class="contact-us-h2">CONTACT US</h2>
+			<p class="contact-us-p">petnow는 새로운 사람들을 만나기 위해</p>
+			<p class="contact-us-p">언제나 연락을 기다리고 있습니다.</p>
+			<p class="contact-us-p">전화를 하거나 이메일을 남겨 주시길 바랍니다.</p>
+			<div class="contact-box">
+				<p><img src="img/contact1.png" alt="contact1"> 서울시 서초구 강남대로37길 26 6F</p>
+				<p><img src="img/contact2.png" alt="contact2"> Tel. 02 525 0154 &nbsp &nbsp FAX.02 598 0154</p>
+				<p><img src="img/contact3.png" alt="contact3"> support@hoyun.co.kr</p>
+			</div>
+			<div class="contact-footer">
+				<a href="file/petnow_ introduction_20191018.pdf" target="_blank"><input class="petnow-detail" type="button" alt="petnow detail"></a>
+			</div>
+		</div>
+		<div class="section-warp">
+			<div class="indulge" id="indulge">
+				<h2>INDULGE ON US</h2>
+				<div class="indulge-item1">
+					<h3>PETIQUETTE</h3>
+					<p>반려동물과 함께 살아가는 사회</p>
+				</div>
+				<div class="indulge-item2">
+					<h3>EXPERT COLUMN</h3>
+					<p>반려동물에 대한 더 깊은 이해</p>
+				</div>
+				<div class="indulge-item3">
+					<h3>AT YOUR SERVICE</h3>
+					<p>고객 서비스</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-bg">
+			<p>주식회사 호윤 (06735) 서울시 서초구 강남대로37길 26, 6층 (서초동, 산동빌딩) 사업자 대표자 : 조지연</p>
+			<p>사업자등록번호: 261-8124299 Tel. 02 525 0154 Fax. 02 598 0154</p>
+			<p>copyright 2015 HOYUN Inc. All rights Reserved.</p>
+		</div>
+	</footer>
+	<script>
+	
+	var ul = document.getElementById("slide-ul");
+	var prev = document.getElementById("slide-prev");
+	var next = document.getElementById("slide-next");
+	var minSlideNum = 0;
+	var maxSlideNum = 3;
+	var nowSlideNum = minSlideNum;
+		
+	prev.addEventListener('click', function (event) {
+		
+		var w = window.innerWidth;
+		// mobile
+		if(w < '768'){
+			if(nowSlideNum > minSlideNum) nowSlideNum--;
+			var maginleft = '-' + 100*nowSlideNum + 'vw';
+			ul.style.marginLeft = maginleft;
+		//tablet	
+		} else if (w >= '768' && w <= '1279') {
+			ul.style.marginLeft = '0px';
+		//desktop
+		} else {
+			ul.style.marginLeft = '0px';
+		}
+	});
+	
+	next.addEventListener('click', function (event) {
+		
+		var w = window.innerWidth;
+		// mobile
+		if(w < '768'){
+			if(nowSlideNum < maxSlideNum) nowSlideNum++;
+			var maginleft = '-' + 100*nowSlideNum + 'vw';
+			ul.style.marginLeft = maginleft;
+		//tablet	
+		} else if (w >= '768' && w <= '1279') {
+			ul.style.marginLeft = '-219px';
+		//desktop
+		} else {
+			ul.style.marginLeft = '-374px';
+		}
+	});
+		
+	function resize(){
+		ul.style.marginLeft = '0px';
+		nowSlideNum = 0;
+	}
+	</script>
+	<script src="js/fs-scrollanimate.js"></script>
 </body>
-
 </html>
-
