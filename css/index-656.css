@@ -306,3 +306,39 @@ footer .footer-copyright {
     margin-top: 6px;
     margin-bottom: 21px;
 }
+
+/**
+* popup
+**/
+#popupWrapper {
+    height: 3844px;
+}
+
+
+#popupWrapper > .popup {
+    max-width: 768px;
+    height: calc(133.4vw + 1.5em);
+    max-height: calc(1024.4px + 1.5em);
+    margin-top: 0px;
+}
+
+#popupWrapper > .popup > .popup-img {
+    height: calc(100% - 1.5em);
+    background-image: url('../img/popup/nose-qr-768.png');
+}
+
+#popupWrapper > .popup > .btn-close {
+    position: absolute;
+    top: 8px;
+}
+
+#popupWrapper > .popup > .btn-wrapper {
+    height: 1.5em;
+}
+
+#popupWrapper > .popup > .btn-wrapper span {
+    padding-top: 3px;
+    font-size: 12pt;
+    margin-left: 12px;
+    margin-right: 22px;
+}

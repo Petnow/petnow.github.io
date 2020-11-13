@@ -202,3 +202,73 @@ footer .footer-corp > div {
     display: flex;
     justify-content: center;
 }
+
+/**
+* popup
+**/
+#popupWrapper {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 98;
+}
+
+#popupWrapper > .popup > .btn-close {
+    position: relative;
+    top: 30px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    float: right;
+    background-image: url('../img/popup/close.png');
+}
+
+#popupWrapper > .popup {
+    position: relative;
+    width: 100%;
+    height: calc(66.61vw + 35px);
+    max-width: 1360px;
+    max-height: calc(906px + 35px);
+    margin: 120px auto 0;
+}
+
+#popupWrapper > .popup > .popup-img {
+    width: 100%;
+    height: calc(100% - 35px);
+    background-size: 100%;
+    background-image: url('../img/popup/nose-qr-1360.png');
+}
+
+#popupWrapper > .popup > .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ECF0F4;
+    height: 35px;
+}
+
+#popupWrapper > .popup > .btn-wrapper > #callTodayWrapper {
+    display: flex;
+    align-items: center;
+}
+
+#popupWrapper > .popup > .btn-wrapper input {
+    width: 20px;
+    height: 20px;
+}
+
+#popupWrapper > .popup > .btn-wrapper span {
+    padding-top: 3px;
+    font-size: 16pt;
+    margin-left: 12px;
+    margin-right: 42px;
+}
+
+#popupWrapper > .popup > .btn-wrapper > button {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    background-image: url('../img/popup/close.png');
+    background-color: #ECF0F4;
+}

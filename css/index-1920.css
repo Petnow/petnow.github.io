@@ -234,3 +234,10 @@ footer .footer-copyright {
     font-size: 15px;
     margin-bottom: 24px;
 }
+
+/**
+* popup
+**/
+#popupWrapper {
+    height: 6492px;
+}

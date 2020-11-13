@@ -231,3 +231,31 @@ footer p {
 footer .footer-copyright {
     margin-bottom: 13px;
 }
+
+/**
+* popup
+**/
+#popupWrapper {
+    height: 4188.5px;
+}
+
+#popupWrapper > .popup {
+    max-width: 768px;
+    height: calc(133.4vw + 1.7em);
+    max-height: calc(1024.4px + 1.7em);
+    margin-top: 0px;
+}
+
+#popupWrapper > .popup > .popup-img {
+    height: calc(100% - 1.7em);
+    background-image: url('../img/popup/nose-qr-768.png');
+}
+
+#popupWrapper > .popup > .btn-close {
+    position: absolute;
+    top: 8px;
+}
+
+#popupWrapper > .popup > .btn-wrapper {
+    height: 1.7em;
+}
